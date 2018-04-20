@@ -110,6 +110,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fafafa;
 }
 
+.content.container {
+    width: 80%;
+    margin: auto;
+}
+
 .header {
     background: url('../img/banner.jpg') no-repeat center center scroll;
     background-size: cover;
@@ -124,19 +129,231 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1b1f22;
 }
 
+.contact .content.container {
+    background-color: #fafafa;
+    box-shadow: 0px 1px 0px #eeeeee;
+}
 
+.contact-content-container {
+    margin-top: -2rem;
+}
 
+.contact-heading {
+    font-size: 1.5rem;
+}
 
+.contact-head > .btn {
+    background-color: #919191;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 0.375rem 2rem;
+    border-radius: 25px;
+}
 
+.alumni-container-item p {
+    font-size: 12px;
+}
 
+.certifications-text-content > p {
+    font-size: 14px;
+}
 
+.certificate-item {
+    background-color: #f4f4f4;
+    border: 1px solid #dbdbdb;
+    height: 100%;
+    width: 96%;
+    margin: auto;
+}
 
+.certificate-name {
+    background-color: #e9e9e9;
+    padding: 0.5rem;
+    font-size: 12px;
+    font-weight: 600;
+}
 
+.register-text-content > h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
 
+.register-text-content > p {
+    font-size: 14px;
+}
 
+.register-countdown-item {
+    background-color: #ffffff;
+    width: 70px;
+    min-height: 66px;
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
 
+.register-countdown-item > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
 
+.register-countdown-item > p {
+    font-size: 12px;
+}
 
+.register-countdown-item.red {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.register-now > .btn {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0.5rem 2.5rem;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all ease-in 0.4s;
+}
+
+.register-now > .btn:hover, .register-now > .btn:focus {
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 1px 1px 2px 0px #6e6e6e;
+}
+
+.projects {
+    border-top: 1px outset #dbdbdb;
+}
+
+.project-item-wrap {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 94%;
+    margin: auto;
+    height: 100%;
+    padding: 2rem 0.75rem;
+    min-height: 126px;
+    transition: all ease-out 0.4s;
+}
+
+.project-item:hover, .project-item:focus {
+    background-color: #00b7ff;
+    border-color: #00b7ff;
+    box-shadow: 2px 2px 12px 2px rgba(149, 149, 149, 0.8);
+    z-index: 11;
+}
+
+.project-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+}
+
+.project-item:hover .project-name, .project-item:focus .project-name {
+    color: #ffffff;
+}
+
+.feature-container {
+    border: 1px solid #ccc;
+}
+
+#feature-nav-tabs .nav-link {
+    border-radius: 0;
+    background-color: #e5e5e5;
+    border-right: 1px solid #ccc;
+    color: #000;
+    font-weight: 600;
+}
+
+#feature-nav-tabs .nav-link + .nav-link {
+    border-top: 1px solid #ccc;
+}
+
+#feature-nav-tabs .nav-link.active {
+    border-right: 0px;
+    background-color: #fff;
+}
+
+.feature-list-item > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.feature-list-item > p > span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.about-text-heading h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-foot > .btn {
+    background-color: #686868;
+    border: 1px solid #686868;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 12px 2px rgba(149, 149, 149, 0.8);
+    transition: all ease-in-out 0.4s;
+}
+
+.about-foot > .btn:focus, .about-foot > .btn:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.about .content.container {
+    width: 90%;
+}
+
+.banner-text-contact > .btn {
+    background-color: #6dc823;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: all ease-in 0.4s;
+}
+
+.banner-text-contact > .btn > img {
+    margin-right: 1rem;
+}
+
+.banner-text-contact > .btn:focus, .banner-text-contact > .btn:hover {
+    background-color: #63971b;
+}
+
+.banner-text-top-wrapper {
+    background: #00b7ff;
+}
+
+.banner-text-top {
+    width: 80%;
+    margin: auto;
+    background: #00b7ff;
+}
+
+.banner-text-bottom-wrapper {
+    background-color: #4a4a4a;
+}
+
+.top-header {
+    background-color: #fafafa;
+}
+
+.top-header-content {
+    background-color: #fafafa;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -24,10 +24,10 @@
         <!-- Add your site or application content here -->
         <main class="main">
             <!-- Header -->
-            <header class="header">
+            <header class="header pb-5">
                 <section class="top-header">
                     <div class="content container">
-                        <div class="top-header-content d-flex justify-content-between align-items-center w-75">
+                        <div class="top-header-content d-flex justify-content-between align-items-center py-2 w-75">
                             <div class="logo-wrapper">
                                 <img src="img/logo.png" alt="Logo" />
                             </div>
@@ -40,21 +40,23 @@
                         </div>
                     </div>
                 </section>
-                <section class="header-banner">
-                    <div class="content container">
-                        <div class="banner-text">
-                            <div class="banner-text-top">
-                                <p>Introducing for the</p>
-                                <h1 class="text-white">First time in Jaipur</h1>
-                                <p>Official Internship-training 2018 | Summer/Winter Internships 100% Placement Assitance</p>
-                                <p class="text-white">Office hours: 6-8 hours a day</p>
+                <section class="header-banner pt-3">
+                    <div class="content">
+                        <div class="banner-text-top-wrapper">
+                            <div class="banner-text-top py-3 content container">
+                                <p class="mb-0 font-weight-bold">Introducing for the</p>
+                                <h1 class="text-white font-weight-bold mt-0">First time in Jaipur</h1>
+                                <p class="mb-1">Official Internship-training 2018 | Summer/Winter Internships 100% Placement Assitance</p>
+                                <p class="text-white mb-0">Office hours: 6-8 hours a day</p>
                             </div>
-                            <div class="banner-text-bottom">
-                                <p class="text-white">500+ Jobs|50+ Associated Companies| Since 2013</p>
+                        </div>
+                        <div class="banner-text-bottom-wrapper">
+                            <div class="banner-text-bottom py-3 content container">
+                                <p class="text-white mb-0">500+ Jobs|50+ Associated Companies| Since 2013</p>
                             </div>
-                            <div class="banner-text-contact">
-                                <button><img src="img/icons/call.png" alt="Call"> Get a call now</button>
-                            </div>
+                        </div>
+                        <div class="banner-text-contact mt-3 content container">
+                            <button class="btn"><img src="img/icons/call.png" alt="Call"> Get a call now</button>
                         </div>
                     </div>
                 </section>
@@ -62,26 +64,28 @@
             <!-- End of Header -->
 
             <!-- About Section -->
-            <section class="about">
-                <div class="content container">
+            <section class="about py-5">
+                <div class="content container ml-0">
                     <div class="about-content row">
-                        <div class="about-image col-5">
+                        <div class="about-image col-md-7 pl-md-0">
                             <img src="img/about-image.png" alt="About" class="img-fluid">
                         </div>
-                        <div class="about-text col-7">
-                            <div class="about-text-heading">
-                                <h1 class="text-uppercase">Biggest reason to start the company</h1>
-                                <h2 class="text-uppercase">Internship training program</h2>
-                            </div>
-                            <div class="about-text-body">
-                                <p>GIP has trained many interns before, incredible results could be seen, they got 100% placemnt and have proven themselves the best in their areas of expertise.</p>
-                                <p>Since we are getting a lot of references from our placed candidates, we have decided to allow 30 seats only for we have set up the infrastructure speciality.</p>
-                            </div>
-                            <div class="about-text-bottom-body">
-                                <p>We believe in giving live training to students/candidates over data center management technologies at their best.</p>
-                            </div>
-                            <div class="about-foot">
-                                <button class="text-uppercase">Join Us</button>
+                        <div class="about-text col-md-5">
+                            <div class="about-text-wrap d-flex flex-column h-100">
+                                <div class="about-text-heading mb-4">
+                                    <h1 class="text-uppercase h4 font-weight-bold m-0">Biggest reason to start the company</h1>
+                                    <h1 class="text-uppercase h5 m-0">Internship training program</h1>
+                                </div>
+                                <div class="about-text-body mb-4">
+                                    <p class="mb-2">GIP has trained many interns before, incredible results could be seen, they got 100% placemnt and have proven themselves the best in their areas of expertise.</p>
+                                    <p class="mb-0">Since we are getting a lot of references from our placed candidates, we have decided to allow 30 seats only for we have set up the infrastructure speciality.</p>
+                                </div>
+                                <div class="about-text-bottom-body mb-4">
+                                    <p class="mb-0">We believe in giving live training to students/candidates over data center management technologies at their best.</p>
+                                </div>
+                                <div class="about-foot mt-auto mb-0">
+                                    <button class="btn text-uppercase">Join Us</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,58 +94,68 @@
             <!-- About Section End -->
 
             <!-- Project Section -->
-            <section class="projects">
+            <section class="projects py-5">
                 <div class="content container">
-                    <div class="projects-container row">
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/aws.png" alt="AWS">
-                            <p class="project-name">AWS Data Center Management Projects</p>
+                    <div class="projects-container row mb-4">
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/aws.png" alt="AWS">
+                                <p class="project-name mt-auto mb-0">AWS Data Center Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/cpanel.png" alt="C-Panel">
-                            <p class="project-name">C-PANEL/Control Panel Management Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/cpanel.png" alt="C-Panel">
+                                <p class="project-name mt-auto mb-0">C-PANEL/Control Panel Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/cloud-server.png" alt="Cloud Server">
-                            <p class="project-name">Cloud Server Management Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/cloud-server.png" alt="Cloud Server">
+                                <p class="project-name mt-auto mb-0">Cloud Server Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/big-data.png" alt="Dev-Ops">
-                            <p class="project-name">Dev-OPS Deployment and Management</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/big-data.png" alt="Dev-Ops">
+                                <p class="project-name mt-auto mb-0">Dev-OPS Deployment and Management</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/ssd-icon.png" alt="Virtualization">
-                            <p class="project-name">Virtualization Server Management Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/ssd-icon.png" alt="Virtualization">
+                                <p class="project-name mt-auto mb-0">Virtualization Server Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/server.png" alt="Linux">
-                            <p class="project-name">Linux/Windows Server Management Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/server.png" alt="Linux">
+                                <p class="project-name mt-auto mb-0">Linux/Windows Server Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/server_mail_upload.png" alt="Email Server">
-                            <p class="project-name">Email Server Management Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/server_mail_upload.png" alt="Email Server">
+                                <p class="project-name mt-auto mb-0">Email Server Management Projects</p>
+                            </div>
                         </div>
-                        <div class="project-item col col-sm-6 col-md-3 text-center">
-                            <img src="img/icons/docker.png" alt="Docker">
-                            <p class="project-name">Docker Container Deployment Projects</p>
+                        <div class="project-item-wrap col col-sm-6 col-md-3 text-center">
+                            <div class="project-item py-2 d-flex flex-column align-items-center">
+                                <img src="img/icons/docker.png" alt="Docker">
+                                <p class="project-name mt-auto mb-0">Docker Container Deployment Projects</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="feature-container row">
-                        <div class="feature-nav col-12 col-md-3">
-                            <ul class="nav flex-row nav-pills flex-md-column" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="strength-tab" data-toggle="tab" href="#strength" role="tab" aria-controls="strength" aria-selected="true">Our Strengths</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="future-tab" data-toggle="tab" href="#future" role="tab" aria-controls="future" aria-selected="false">Future of candidates</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="benefit-tab" data-toggle="tab" href="#benefit" role="tab" aria-controls="benefit" aria-selected="false">Benefits to candidates</a>
-                                </li>
-                            </ul>
+                        <div class="feature-nav col-12 col-md-3 pl-md-0">
+                            <nav class="nav flex-row nav-pills flex-md-column h-100" id="feature-nav-tabs" role="tablist">
+                                <a class="nav-link flex-fill d-flex align-items-center active" id="strength-tab" data-toggle="tab" href="#strength" role="tab" aria-controls="strength" aria-selected="true">Our Strengths</a>
+                                <a class="nav-link flex-fill d-flex align-items-center" id="future-tab" data-toggle="tab" href="#future" role="tab" aria-controls="future" aria-selected="false">Future of candidates</a>
+                                <a class="nav-link flex-fill d-flex align-items-center" id="benefit-tab" data-toggle="tab" href="#benefit" role="tab" aria-controls="benefit" aria-selected="false">Benefits to candidates</a>
+                            </nav>
                         </div>
-                        <div class="feature-content col-12 col-md-9">
+                        <div class="feature-content col-12 col-md-9 py-5 px-md-4">
                             <div class="tab-content" id="feature-tab-content">
                                 <div class="tab-pane fade show active" id="strength" role="tabpanel" aria-labelledby="strength-tab">
                                     <div class="feature-list row">
@@ -306,15 +320,15 @@
             </section>
             <!-- End of Projects Section -->
 
-            <section class="register">
+            <section class="register py-5">
                 <div class="content container">
                     <div class="register-content text-center">
-                        <div class="register-text-content">
-                            <h1 class="text-uppercase text-white">Limited 30 seats</h1>
-                            <h3 class="text-uppercase text-white">GIP turns interns into professionals</h3>
-                            <p class="text-uppercase text-white-50">Join the global leader in data center management training</p>
+                        <div class="register-text-content mb-4">
+                            <h1 class="text-uppercase text-white font-weight-bold mt-0 mb-2">Limited 30 seats</h1>
+                            <h3 class="text-uppercase text-white h5 mb-0">GIP turns interns into professionals</h3>
+                            <p class="text-uppercase text-white-50 mb-0">Join the global leader in data center management training</p>
                         </div>
-                        <div class="register- d-flex justify-content-center align-items-center">
+                        <div class="register- d-flex justify-content-center align-items-center mb-3">
                             <div class="register-countdown-item">
                                 <h1 class="m-0">09</h1>
                                 <p class="text-uppercase m-0">Day</p>
@@ -327,73 +341,84 @@
                                 <h1 class="m-0">29</h1>
                                 <p class="text-uppercase m-0">sec</p>
                             </div>
-                            <div class="register-countdown-item">
+                            <div class="register-countdown-item red d-flex justify-content-center align-items-center">
                                 <h1 class="m-0">01</h1>
-                                <p class="m-0">&nbsp;</p>
                             </div>
                         </div>
                         <div class="register-now">
-                            <button class="text-uppercase">Register now</button>
+                            <button class="btn text-uppercase">Register now</button>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- End of Register Section -->
 
-            <section class="certifications">
+            <section class="certifications my-5">
                 <div class="content container">
                     <div class="certifications-content text-center">
-                        <div class="certifications-text-content">
-                            <h1 class="h2 text-uppercase">International <b>Certifications</b></h1>
+                        <div class="certifications-text-content mb-4">
+                            <h1 class="h5 text-uppercase mb-4">International <span class="font-weight-bold">Certifications</span></h1>
                             <p>Registered candidates can avail Flat 50% discount on the examination fee of international certifications like RHCSA, RHCE, Cloud, Big Data, Virtualization</p>
                         </div>
                         <div class="certifications-certificates-container row">
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/aws.png" alt="AWS">
-                                </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    AWS-ASA, Devops
-                                </div>
-                            </div>
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/redhat.png" alt="RedHat">
-                                </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    RHCSA, RHCE, CL210
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/aws-small.png" alt="AWS">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        AWS-ASA, Devops
+                                    </div>
                                 </div>
                             </div>
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/cisco.png" alt="CISCO">
-                                </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    CCNA, CCNP
-                                </div>
-                            </div>
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/python.png" alt="Python">
-                                </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    Advanced Python
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/redhat.png" alt="RedHat">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        RHCSA, RHCE, CL210
+                                    </div>
                                 </div>
                             </div>
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/openstack.png" alt="Openstack">
-                                </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    Openstack
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/cisco.png" alt="CISCO">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        CCNA, CCNP
+                                    </div>
                                 </div>
                             </div>
-                            <div class="certificate-item col-lg-2 col-md-3 col-sm-6 col-12 text-center">
-                                <div class="certificate-image h-75 w-100">
-                                    <img src="img/icons/machine-learning.png" alt="Machine Learning">
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/python.png" alt="Python">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        Advanced Python
+                                    </div>
                                 </div>
-                                <div class="certificate-name text-uppercase w-100">
-                                    Machine Learning
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/openstack.png" alt="Openstack">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        Openstack
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-12 text-center p-0">
+                                <div class="certificate-item d-flex flex-column">
+                                    <div class="certificate-image d-flex justify-content-center align-items-center h-100 py-2">
+                                        <img src="img/icons/machine-learning.png" alt="Machine Learning">
+                                    </div>
+                                    <div class="certificate-name text-uppercase mt-auto mb-0">
+                                        Machine Learning
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -403,17 +428,17 @@
             <!-- End of Certification Section -->
 
             <!-- Alumni Section -->
-            <section class="alumni">
-                <div class="content container">
-                    <h1 class="text-uppercase text-center text-white">Our <b>Alumni</b></h1>
+            <section class="alumni pt-3 pb-5">
+                <div class="content container mb-3">
+                    <h1 class="text-uppercase text-center text-white mt-0 mb-4 h5">Our <span class="font-weight-bold">Alumni</span></h1>
                     <div class="alumni-container row">
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -421,12 +446,12 @@
                             </div>
                         </div>
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -434,12 +459,12 @@
                             </div>
                         </div>
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -447,12 +472,12 @@
                             </div>
                         </div>
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -460,12 +485,12 @@
                             </div>
                         </div>
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -473,12 +498,12 @@
                             </div>
                         </div>
                         <div class="alumni-container-item col-lg-2 col-md-3 col-sm-6 col-12">
-                            <div class="alumni-avatar">
+                            <div class="alumni-avatar mb-3">
                                 <img src="img/icons/user.png" alt="Avatar">
                             </div>
-                            <div class="alumni-info text-white">
+                            <div class="alumni-info text-white mb-3">
                                 <p class="alumni-name m-0">Mr. Example</p>
-                                <p class="alumni-certificate m-0">AWS-ASA, DEVOPS</p>
+                                <p class="alumni-certificate m-0 font-weight-bold">AWS-ASA, DEVOPS</p>
                             </div>
                             <div class="alumni-company text-white-50">
                                 <p class="alumni-comp m-0">Example Company Pvt Ltd</p>
@@ -490,29 +515,35 @@
             </section>
             <!-- End of Alumni Section -->
 
-            <footer class="contact">
+            <footer class="contact pb-5">
                 <div class="content container">
-                    <div class="contact-content-container row">
-                        <div class="contact-head w-100 d-flex justify-content-between align-items-center">
-                            <h1 class="text-uppercase">confused ?? about your career</h1>
-                            <button class="text-uppercase">Click Here</button>
+                    <div class="contact-content-container">
+                        <div class="contact-head w-100 d-flex justify-content-between align-items-center pr-4 pl-4 pt-3 pb-3">
+                            <h1 class="text-uppercase m-0 contact-heading"><span class="font-weight-bold">confused ??</span> about your career.</h1>
+                            <button class="btn text-uppercase">Click Here</button>
                         </div>
-                        <div class="contact-details col-4">
-                            <div class="contact-info">
-                                <img src="img/logo-bottom.png" alt="Logo">
-                                <h1 class="text-uppercase">GIP technologies pvt. ltd.</h1>
-                                <address>
-                                    B-4 Vivek Vihar, Parallel to Dainik Bhaskar Fly Over, <br>
-                                    Opp. Dainik Bhaskar, Towards JLN Road, <br>
-                                    Jaipur - 302015
-                                </address>
+                        <div class="row mt-3">
+                            <div class="contact-details col-12 col-md-5 pl-0">
+                                <div class="contact-info">
+                                    <div class="contact-logo-wrap mb-4">
+                                        <img src="img/logo-bottom.png" alt="Logo" class="img-fluid">
+                                    </div>
+                                    <div class="contact-address-block pl-2 mt-2 mb-5">
+                                        <h1 class="text-uppercase h5 font-weight-bold mt-0 mb-3">GIP technologies pvt. ltd.</h1>
+                                        <address class="mb-0">
+                                            B-4 Vivek Vihar, Parallel to Dainik Bhaskar Fly Over, <br>
+                                            Opp. Dainik Bhaskar, Towards JLN Road, <br>
+                                            Jaipur - 302015
+                                        </address>
+                                    </div>
+                                </div>
+                                <div class="copyright-block">
+                                    &copy; 2018 <a href="index.html">GIP</a>. All rights reserved.
+                                </div>
                             </div>
-                            <div class="copyright-block">
-                                &copy; 2018 <a href="index.html">GIP</a>. All rights reserved.
+                            <div class="contact-map col-12 col-md-7 pr-0">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1779.5560024565552!2d75.80405980049697!3d26.868182321195714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5a60a4781af%3A0x79f8f77e417b4b46!2sGlobal+IT+Providers!5e0!3m2!1sen!2sin!4v1524201304189" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
-                        </div>
-                        <div class="contact-map col-8">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1779.5560024565552!2d75.80405980049697!3d26.868182321195714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5a60a4781af%3A0x79f8f77e417b4b46!2sGlobal+IT+Providers!5e0!3m2!1sen!2sin!4v1524201304189" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
