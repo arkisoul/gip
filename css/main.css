@@ -444,17 +444,21 @@ h1, h2, h3, h4, h5, h6 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media all and (max-width: 1024px) {
+    .top-header-content { width: 100%!important; }
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media all and (max-width: 991px) {
+    .about-text { margin-top: 1rem; }
+    .about .content.container { width: 80%; margin: auto!important;}
 }
 
+@media all and (max-width: 767px) {
+    .about .content.container { width: 100%; }
+    .content.container { width: 100%; }
+    .contact-head > .contact-heading { margin-bottom: 1rem!important; }
+    .contact-phone, .contact-email { display: none; }
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
