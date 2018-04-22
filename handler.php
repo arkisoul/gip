@@ -19,7 +19,7 @@ $validator->field('email')->isEmail();
 $validator->field('message')->maxLength(6000);
 
 $mailer = $pp->getMailer();
-$mailer->setFrom('arpit8atoz@gmail.com','Contact Form',false);
+$mailer->setFrom('noreply@giptechnologies.com','Contact Form',false);
 $pp->requireCaptcha();
-$pp->sendEmailTo('arpittt.jain@gmail.com'); // ← Your email here
+$pp->sendEmailTo('dewan@mailinator.com'); // ← Your email here
 echo $pp->process($_POST);
