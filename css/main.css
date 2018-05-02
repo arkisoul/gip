@@ -120,6 +120,10 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.about {
+    padding: 5rem 0!important;
+}
+
 .register {
     background: url('../img/register-bg.jpg') no-repeat center center scroll;
     background-size: cover;

@@ -43,6 +43,9 @@ $('body').on('click', '.close-btn', function(e) {
 $('body').on('click', '.show-enquiry-form', function(e) {
     e.preventDefault();
     var _this = $('#contact-form-anchor');
+    $('form#reused_form').show();
+    $('#success_message').hide();
+    $('#error_message').hide();
     if ($(_this).hasClass('active')) {
         $(_this).removeClass('active');
         $(_this).animate({
